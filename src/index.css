@@ -187,7 +187,7 @@ body, html {
     height: 100vh;
     background: rgba(10, 5, 5, 0.98);
     backdrop-filter: blur(20px);
-    z-index: 20;
+    z-index: 90; /* Just below navbar */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -210,9 +210,10 @@ body, html {
 .mobile-nav-links a {
     text-decoration: none;
     color: white;
-    font-family: var(--font-serif);
-    font-size: 2.5rem;
-    font-weight: 400;
+    font-family: var(--font-sans); /* Use sans for menu */
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: -0.02em;
     transition: all 0.3s ease;
     opacity: 0;
     transform: translateY(20px);
@@ -401,17 +402,30 @@ body, html {
     }
 
     .navbar {
-        padding: 0.6rem 1rem;
-        margin: 1rem 0.5rem;
-        width: calc(100% - 1rem);
+        padding: 0.8rem 1.5rem;
+        width: calc(100% - 2rem);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        top: 1rem;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 100;
+        margin: 0; /* Remove margin as we use top/left */
     }
 
     .logo {
-        font-size: 1.25rem;
+        font-size: 1.4rem;
     }
 
-    .nav-socials {
-        display: none; /* Hide socials in mobile navbar */
+    .mobile-menu-btn {
+        display: flex;
+        z-index: 101;
+    }
+
+    .nav-socials, .nav-links {
+        display: none;
     }
 
     .headline {
