@@ -13,7 +13,7 @@ const TrustBar = () => {
             </div>
             <div className="trust-label">
               <span className="small-caps">Recognized</span>
-              <span className="bold">Designer & Dev</span>
+              <span className="bold">Design Technologist</span>
             </div>
           </div>
         </div>
@@ -102,7 +102,7 @@ const TrustBar = () => {
           <div className="trust-badge">
             <div className="trust-label align-right">
               <span className="small-caps">Available for</span>
-              <span className="bold">Full-time Roles</span>
+              <span className="bold">Elite Opportunities</span>
             </div>
             <div className="trust-icon-box">
               {/* flip class handles transform scaleX(-1) in CSS */}

@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
+import { FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -16,17 +17,32 @@ const Navbar = () => {
   return (
     <>
       <header className="navbar">
-        <div className="logo">Selva.</div>
+        <div className="logo flex items-center gap-2">
+          <span className="text-accent">S</span>elva.
+        </div>
         <nav className="nav-links">
           <a href="#home">Home</a>
-          <a href="#services">Services</a>
           <a href="#work">Work</a>
-          <a href="#process">Process</a>
+          <a href="#services">Services</a>
           <a href="#contact">Contact</a>
         </nav>
-        <a href="#contact" className="cta-button">
-          Get In Touch
-        </a>
+
+        <div className="nav-socials flex gap-4">
+          <a
+            href="https://github.com/selvaganapathycoder"
+            target="_blank"
+            className="social-icon"
+          >
+            <FaGithub />
+          </a>
+          <a
+            href="https://linkedin.com/in/selva-ganapathy-developer"
+            target="_blank"
+            className="social-icon"
+          >
+            <FaLinkedinIn />
+          </a>
+        </div>
 
         <button
           className={`mobile-menu-btn ${mobileMenuOpen ? "active" : ""}`}

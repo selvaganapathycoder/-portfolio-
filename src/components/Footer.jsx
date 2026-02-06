@@ -53,14 +53,16 @@ const Footer = () => {
         <div className="footer-main">
           {/* Brand Section */}
           <div className="footer-brand">
-            <div className="logo">Selva.</div>
+            <div className="logo">
+              <span className="text-accent">S</span>elva.
+            </div>
             <p>
-              Frontend Developer focused on crafting high-performance, immersive
-              digital experiences.
+              Senior Frontend Architect specializing in high-performance web
+              systems and immersive digital experiences.
             </p>
             <div className="footer-socials">
               <a
-                href="https://www.linkedin.com/in/selva-ganapathy-developer"
+                href="https://linkedin.com/in/selva-ganapathy-developer"
                 target="_blank"
                 aria-label="LinkedIn"
                 rel="noreferrer"

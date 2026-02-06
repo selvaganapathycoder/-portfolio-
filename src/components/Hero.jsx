@@ -34,17 +34,26 @@ const Hero = () => {
       <main className="hero-section">
         <div className="hero-content">
           <h1 className="headline">
-            Interactive digital <br />
-            experiences by{" "}
-            <span className="highlight-text">Selvaganapathy</span>.
+            Crafting <span className="highlight-text">Digital Excellence</span>{" "}
+            <br />
+            through code & design.
           </h1>
           <p className="subheadline">
-            Frontend Developer specializing in high-performance web architecture
-            and immersive design.
+            I'm <span className="text-white font-bold">Selvaganapathy</span>, a
+            Senior Frontend Architect specializing in high-performance web
+            systems and cinematic user experiences.
           </p>
-          <a href="/img/resume selva (3)-pages.pdf" className="hero-cta">
-            Resume <FaArrowRight />
-          </a>
+          <div className="hero-actions flex gap-6 justify-center">
+            <a href="#work" className="hero-cta">
+              View Projects <FaArrowRight />
+            </a>
+            <a
+              href="/img/resume selva (3)-pages.pdf"
+              className="hero-cta secondary"
+            >
+              Resume
+            </a>
+          </div>
         </div>
       </main>
 

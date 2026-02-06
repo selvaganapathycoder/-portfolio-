@@ -103,10 +103,11 @@ const Process = () => {
         <div className="split-container">
           <div className="split-header">
             <h1 className="split-reveal-text">
-              Verified <span className="highlight-text">Mastery</span>
+              Strategic <span className="highlight-text">Mastery</span>
             </h1>
             <p className="split-reveal-subtext">
-              A collection of professional milestones and technical validations.
+              A curated showcase of professional certifications and technical
+              excellence.
             </p>
           </div>
 
