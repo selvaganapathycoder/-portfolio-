@@ -40,8 +40,8 @@ const Hero = () => {
           </h1>
           <p className="subheadline">
             I'm <span className="text-white font-bold">Selvaganapathy</span>, a
-            Senior Frontend Architect specializing in high-performance web
-            systems and cinematic user experiences.
+            Frontend Developer specializing in high-performance web systems and
+            cinematic user experiences.
           </p>
           <div className="hero-actions flex gap-6 justify-center">
             <a href="#work" className="hero-cta">

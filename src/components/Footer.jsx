@@ -57,8 +57,8 @@ const Footer = () => {
               <span className="text-accent">S</span>elva.
             </div>
             <p>
-              Senior Frontend Architect specializing in high-performance web
-              systems and immersive digital experiences.
+              Frontend Developer specializing in high-performance web systems
+              and immersive digital experiences.
             </p>
             <div className="footer-socials">
               <a
