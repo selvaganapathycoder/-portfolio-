@@ -68,27 +68,14 @@ const Services = () => {
           <div className="services-grid">
             <div className="service-card">
               <div className="service-icon">
-                <FaLayerGroup />
-              </div>
-              <div className="service-content">
-                <h3>Full-Stack Solutions</h3>
-                <p>
-                  Architecting end-to-end applications with modern stacks.
-                  Seamless integration of robust backends with high-fidelity
-                  frontend experiences.
-                </p>
-              </div>
-            </div>
-
-            <div className="service-card">
-              <div className="service-icon">
                 <FaReact />
               </div>
               <div className="service-content">
-                <h3>Next.js Architecture</h3>
+                <h3>React & Next.js Ecosystems</h3>
                 <p>
-                  Building production-ready applications with Server Components,
-                  optimized routing, and enterprise-grade performance patterns.
+                  Building scalable, production-ready applications with
+                  TypeScript, Server Components, and clean, component-driven
+                  architectures (shadcn/ui).
                 </p>
               </div>
             </div>
@@ -98,11 +85,25 @@ const Services = () => {
                 <FaMagic />
               </div>
               <div className="service-content">
-                <h3>Interactive UI/UX</h3>
+                <h3>Cinematic UI & Motion</h3>
                 <p>
-                  Crafting immersive digital journeys using GSAP, Framer Motion,
-                  and Three.js. Design systems that bridge the gap between form
-                  and function.
+                  Crafting immersive digital storytelling using GSAP.
+                  Specialized in scroll-driven animations and premium, fluid
+                  micro-interactions that engage users.
+                </p>
+              </div>
+            </div>
+
+            <div className="service-card">
+              <div className="service-icon">
+                <FaLayerGroup />
+              </div>
+              <div className="service-content">
+                <h3>Enterprise Dashboards</h3>
+                <p>
+                  Designing complex, data-heavy business interfaces and admin
+                  panels. Focusing on clean state management, reusability, and
+                  intuitive data visualization.
                 </p>
               </div>
             </div>
@@ -112,11 +113,11 @@ const Services = () => {
                 <FaRocket />
               </div>
               <div className="service-content">
-                <h3>Performance Strategy</h3>
+                <h3>Full-Stack Integration</h3>
                 <p>
-                  Extreme optimization for Core Web Vitals. Ensuring ultra-fast
-                  load times, SEO dominance, and flawless accessibility
-                  standards.
+                  Seamlessly connecting frontends with robust backends like
+                  Supabase and Firebase. Handling complex REST APIs and async
+                  data flows for real-world apps.
                 </p>
               </div>
             </div>

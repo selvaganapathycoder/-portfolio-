@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { FaArrowRight, FaChevronDown } from "react-icons/fa";
+import { FaArrowRight, FaChevronDown, FaDownload } from "react-icons/fa";
 import Navbar from "./Navbar";
 
 const Hero = () => {
@@ -44,14 +44,11 @@ const Hero = () => {
             cinematic user experiences.
           </p>
           <div className="hero-actions flex gap-6 justify-center">
-            <a href="#work" className="hero-cta">
-              View Projects <FaArrowRight />
-            </a>
             <a
               href="/img/resume selva (3)-pages.pdf"
-              className="hero-cta secondary"
+              className="hero-cta primary-resume"
             >
-              Resume
+              Resume <FaDownload />
             </a>
           </div>
         </div>
