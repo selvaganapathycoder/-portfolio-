@@ -45,7 +45,9 @@ const Hero = () => {
           </p>
           <div className="hero-actions flex gap-6 justify-center">
             <a
-              href="/img/resume selva (3)-pages.pdf"
+              href="/img/Selva_Ganapathy_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="hero-cta primary-resume"
             >
               Resume <FaDownload />
