@@ -131,8 +131,8 @@ const Services = () => {
             </div>
 
             {/* Open Source Impact Items */}
-            <div className="service-card !border-[#ff4c4c]/30">
-              <div className="service-icon !text-[#ff4c4c]">
+            <div className="service-card">
+              <div className="service-icon">
                 <FaGithub />
               </div>
               <div className="service-content">
@@ -156,8 +156,8 @@ const Services = () => {
               </div>
             </div>
 
-            <div className="service-card !border-[#3b82f6]/30">
-              <div className="service-icon !text-[#3b82f6]">
+            <div className="service-card">
+              <div className="service-icon">
                 <FaCode />
               </div>
               <div className="service-content">
@@ -166,12 +166,12 @@ const Services = () => {
                   <a
                     href="https://github.com/streamich/react-use/pull/2675"
                     target="_blank"
-                    className="text-white/40 hover:text-[#3b82f6]"
+                    className="text-white/40 hover:text-[#ff4c4c]"
                   >
                     <FiExternalLink />
                   </a>
                 </div>
-                <p className="text-xs uppercase tracking-widest text-[#3b82f6] mb-3 font-bold">
+                <p className="text-xs uppercase tracking-widest text-[#ff4c4c] mb-3 font-bold">
                   Performance Bug Fix
                 </p>
                 <p>
@@ -181,8 +181,8 @@ const Services = () => {
               </div>
             </div>
 
-            <div className="service-card !border-[#10b981]/30">
-              <div className="service-icon !text-[#10b981]">
+            <div className="service-card">
+              <div className="service-icon">
                 <FaCalendarAlt />
               </div>
               <div className="service-content">
@@ -191,12 +191,12 @@ const Services = () => {
                   <a
                     href="https://github.com/selvaganapathycoder/protein-drink-tracker/pull/1"
                     target="_blank"
-                    className="text-white/40 hover:text-[#10b981]"
+                    className="text-white/40 hover:text-[#ff4c4c]"
                   >
                     <FiExternalLink />
                   </a>
                 </div>
-                <p className="text-xs uppercase tracking-widest text-[#10b981] mb-3 font-bold">
+                <p className="text-xs uppercase tracking-widest text-[#ff4c4c] mb-3 font-bold">
                   PWA Implementation
                 </p>
                 <p>
