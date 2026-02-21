@@ -23,6 +23,7 @@ const Navbar = () => {
         <nav className="nav-links">
           <a href="#home">Home</a>
           <a href="#work">Work</a>
+          <a href="#experience">Experience</a>
           <a href="#services">Services</a>
           <a href="#contact">Contact</a>
         </nav>
@@ -69,6 +70,9 @@ const Navbar = () => {
           </a>
           <a href="#work" onClick={closeMenu}>
             Work
+          </a>
+          <a href="#experience" onClick={closeMenu}>
+            Experience
           </a>
           <a href="#process" onClick={closeMenu}>
             Process
