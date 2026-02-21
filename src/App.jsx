@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import Services from "./components/Services";
 import TrustBar from "./components/TrustBar";
 import SelectedWorks from "./components/SelectedWorks";
+import Experience from "./components/Experience";
 import Process from "./components/Process";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -104,7 +105,14 @@ function App() {
       });
 
       // --- ScrollSpy: Highlight Active Nav Link ---
-      const sections = ["#home", "#services", "#work", "#process", "#contact"];
+      const sections = [
+        "#home",
+        "#services",
+        "#work",
+        "#experience",
+        "#process",
+        "#contact",
+      ];
       const navLinks = document.querySelectorAll(".nav-links a");
 
       sections.forEach((id) => {
@@ -143,6 +151,7 @@ function App() {
       <Services />
       <TrustBar />
       <SelectedWorks />
+      <Experience />
       <Process />
       <Contact />
       <Footer />
