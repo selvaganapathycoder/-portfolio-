@@ -70,129 +70,131 @@ const Services = () => {
 
       <div className="service-container">
         <section className="services-section container4">
-          <span className="badge">Expertise & Impact</span>
-          <h2 className="section-title">
-            Professional <span className="highlight-text">Services</span>
-          </h2>
-
-          <div className="services-grid">
-            {/* Core Services */}
-            <div className="service-card">
-              <div className="service-icon">
-                <FaReact />
-              </div>
-              <div className="service-content">
-                <h3>Modern Web Apps</h3>
-                <p>
-                  Building scalable, production-ready applications with React,
-                  Next.js, and TypeScript. Expert in component-driven
-                  development.
-                </p>
-              </div>
-            </div>
-
-            <div className="service-card">
-              <div className="service-icon">
-                <FaMagic />
-              </div>
-              <div className="service-content">
-                <h3>Cinematic UI/UX</h3>
-                <p>
-                  Crafting immersive digital experiences with fluid GSAP
-                  animations and premium, micro-interactions that engage users.
-                </p>
-              </div>
-            </div>
-
-            {/* Open Source Impact Items Integrated Here */}
-            <div className="service-card !border-[#ff4c4c]/30">
-              <div className="service-icon !text-[#ff4c4c]">
-                <FaGithub />
-              </div>
-              <div className="service-content">
-                <div className="flex justify-between items-start">
-                  <h3>Cal.com (OSS)</h3>
-                  <a
-                    href="https://github.com/calcom/cal.com"
-                    target="_blank"
-                    className="text-white/40 hover:text-[#ff4c4c]"
-                  >
-                    <FiExternalLink />
-                  </a>
+          <div className="mb-20">
+            <span className="badge">Expertise</span>
+            <h2 className="section-title">
+              Professional <span className="highlight-text">Services</span>
+            </h2>
+            <div className="services-grid">
+              <div className="service-card">
+                <div className="service-icon">
+                  <FaReact />
                 </div>
-                <p className="text-xs uppercase tracking-widest text-[#ff4c4c] mb-2 font-bold">
-                  Refactoring & UI System
-                </p>
-                <p>
-                  Standardized UI components for 30k+ star repo. Migrated legacy
-                  styles to Tailwind CSS, improving maintainability across
-                  monorepo.
-                </p>
-              </div>
-            </div>
-
-            <div className="service-card !border-[#3b82f6]/30">
-              <div className="service-icon !text-[#3b82f6]">
-                <FaCode />
-              </div>
-              <div className="service-content">
-                <div className="flex justify-between items-start">
-                  <h3>react-use</h3>
-                  <a
-                    href="https://github.com/streamich/react-use/pull/2675"
-                    target="_blank"
-                    className="text-white/40 hover:text-[#3b82f6]"
-                  >
-                    <FiExternalLink />
-                  </a>
+                <div className="service-content">
+                  <h3>Modern Web Apps</h3>
+                  <p>
+                    Building scalable, production-ready applications with React,
+                    Next.js, and TypeScript. Expert in component-driven
+                    development.
+                  </p>
                 </div>
-                <p className="text-xs uppercase tracking-widest text-[#3b82f6] mb-2 font-bold">
-                  Performance & Bug Fix
-                </p>
-                <p>
-                  Resolved critical memory leak in `useScrolling` hook.
-                  Optimized React cleanup logic to prevent unintended memory
-                  retention in production.
-                </p>
               </div>
-            </div>
-
-            <div className="service-card !border-[#10b981]/30">
-              <div className="service-icon !text-[#10b981]">
-                <FaCalendarAlt />
-              </div>
-              <div className="service-content">
-                <div className="flex justify-between items-start">
-                  <h3>Feature Design</h3>
-                  <a
-                    href="https://github.com/selvaganapathycoder/protein-drink-tracker/pull/1"
-                    target="_blank"
-                    className="text-white/40 hover:text-[#10b981]"
-                  >
-                    <FiExternalLink />
-                  </a>
+              <div className="service-card">
+                <div className="service-icon">
+                  <FaMagic />
                 </div>
-                <p className="text-xs uppercase tracking-widest text-[#10b981] mb-2 font-bold">
-                  PWA Implementation
-                </p>
-                <p>
-                  Architected a streak-tracking calendar for Protein Drink
-                  Tracker. Built with Vanilla JS & CSS variables for
-                  offline-first performance.
-                </p>
+                <div className="service-content">
+                  <h3>Cinematic UI/UX</h3>
+                  <p>
+                    Crafting immersive digital experiences with fluid GSAP
+                    animations and premium, micro-interactions that engage
+                    users.
+                  </p>
+                </div>
+              </div>
+              <div className="service-card">
+                <div className="service-icon">
+                  <FaRocket />
+                </div>
+                <div className="service-content">
+                  <h3>Full-Stack Systems</h3>
+                  <p>
+                    Integrating robust backends with high-performance frontends.
+                    Handling complex REST APIs and async data flows.
+                  </p>
+                </div>
               </div>
             </div>
+          </div>
 
-            <div className="service-card">
-              <div className="service-icon">
-                <FaRocket />
+          <div className="pt-10">
+            <span className="badge">Impact</span>
+            <h2 className="section-title">
+              Open Source <span className="highlight-text">Contributions</span>
+            </h2>
+            <div className="services-grid">
+              <div className="service-card !border-[#ff4c4c]/30">
+                <div className="service-icon !text-[#ff4c4c]">
+                  <FaGithub />
+                </div>
+                <div className="service-content">
+                  <div className="flex justify-between items-start">
+                    <h3>Cal.com (OSS)</h3>
+                    <a
+                      href="https://github.com/calcom/cal.com"
+                      target="_blank"
+                      className="text-white/40 hover:text-[#ff4c4c]"
+                    >
+                      <FiExternalLink />
+                    </a>
+                  </div>
+                  <p className="text-xs uppercase tracking-widest text-[#ff4c4c] mb-2 font-bold">
+                    Refactoring & UI System
+                  </p>
+                  <p>
+                    Standardized UI components for 30k+ star repo. Migrated
+                    legacy styles to Tailwind CSS, improving maintainability.
+                  </p>
+                </div>
               </div>
-              <div className="service-content">
-                <h3>Full-Stack Systems</h3>
-                <p>
-                  Integrating robust backends with high-performance frontends.
-                  Handling complex REST APIs and async data flows.
-                </p>
+              <div className="service-card !border-[#3b82f6]/30">
+                <div className="service-icon !text-[#3b82f6]">
+                  <FaCode />
+                </div>
+                <div className="service-content">
+                  <div className="flex justify-between items-start">
+                    <h3>react-use</h3>
+                    <a
+                      href="https://github.com/streamich/react-use/pull/2675"
+                      target="_blank"
+                      className="text-white/40 hover:text-[#3b82f6]"
+                    >
+                      <FiExternalLink />
+                    </a>
+                  </div>
+                  <p className="text-xs uppercase tracking-widest text-[#3b82f6] mb-2 font-bold">
+                    Performance & Bug Fix
+                  </p>
+                  <p>
+                    Resolved critical memory leak in `useScrolling` hook.
+                    Optimized React cleanup logic to prevent unintended memory
+                    retention.
+                  </p>
+                </div>
+              </div>
+              <div className="service-card !border-[#10b981]/30">
+                <div className="service-icon !text-[#10b981]">
+                  <FaCalendarAlt />
+                </div>
+                <div className="service-content">
+                  <div className="flex justify-between items-start">
+                    <h3>Feature Design</h3>
+                    <a
+                      href="https://github.com/selvaganapathycoder/protein-drink-tracker/pull/1"
+                      target="_blank"
+                      className="text-white/40 hover:text-[#10b981]"
+                    >
+                      <FiExternalLink />
+                    </a>
+                  </div>
+                  <p className="text-xs uppercase tracking-widest text-[#10b981] mb-2 font-bold">
+                    PWA Implementation
+                  </p>
+                  <p>
+                    Architected a streak-tracking calendar for Protein Drink
+                    Tracker. Built with Vanilla JS & CSS variables for speed.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
