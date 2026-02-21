@@ -90,25 +90,24 @@ const TrustBar = () => {
           </div>
         </div>
 
-        <div className="tech-stack-statement">
-          <span className="small-caps">Technology Stack</span>
-          <p>
-            Empowering brands with a world-class technology stack, bridging
-            innovative design with enterprise engineering.
-          </p>
-        </div>
-
-        <div className="trust-info">
+        <div className="trust-info trust-info-right">
           <div className="trust-badge">
             <div className="trust-label align-right">
               <span className="small-caps">Available for</span>
               <span className="bold">Elite Opportunities</span>
             </div>
             <div className="trust-icon-box">
-              {/* flip class handles transform scaleX(-1) in CSS */}
               <FaAward className="laurel-icon flip" />
             </div>
           </div>
+        </div>
+
+        <div className="tech-stack-statement">
+          <span className="small-caps">Technology Stack</span>
+          <p>
+            Empowering brands with a world-class technology stack, bridging
+            innovative design with enterprise engineering.
+          </p>
         </div>
       </div>
     </div>

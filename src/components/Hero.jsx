@@ -50,7 +50,7 @@ const Hero = () => {
               rel="noopener noreferrer"
               className="hero-cta primary-resume"
             >
-              Resume <FaDownload />
+              RESUME
             </a>
           </div>
         </div>
